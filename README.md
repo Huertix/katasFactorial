@@ -1,1 +1,1 @@
-# katasFactorial
+# katas for Factorial
