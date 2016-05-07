@@ -32,4 +32,12 @@ class FactorialTest extends PHPUnit_Framework_TestCase
     {
         $this->assertEquals(6, $this->factorial->calculate(3));
     }
+
+    /**
+     * @test
+     */
+    public function shouldReturnFactorialForBigNumbers()
+    {
+        $this->assertEquals(1307674368000, $this->factorial->calculate(15));
+    }
 }
