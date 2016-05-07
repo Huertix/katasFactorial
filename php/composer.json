@@ -1,0 +1,12 @@
+{
+    "name": "huertix/factorialPHP",
+    "description": "Factorial kata in PHP",
+    "require-dev": {
+        "phpunit/phpunit": "^4.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "KataFactorial\\": "src/"
+        }
+    }
+}
