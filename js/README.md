@@ -4,6 +4,8 @@
 
 ```
 npm install
+...
+npm run-script init
 ```
 
 ### Run tests
