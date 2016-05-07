@@ -1,10 +1,9 @@
 package com.dev.factorial;
 
-/**
- * Created by huertix on 5/7/16.
- */
+
 public class Factorial {
     public static int calculate(int n) {
-        return 1;
+        if (n<=1) return 1;
+        return calculate(n-1) * n;
     }
 }
