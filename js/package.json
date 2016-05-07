@@ -1,11 +1,15 @@
 {
-  "name": "js",
-  "version": "0.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "BSD-2-Clause"
+    "name": "factorialJS",
+    "version": "0.0.1",
+    "description": "Kata Factorial",
+    "main": "index.js",
+    "scripts": {
+        "init": "jasmine init",
+        "test": "./node_modules/.bin/jasmine test.js"
+    },
+    "author": "",
+    "license": "BSD-2-Clause",
+    "dependencies": {
+        "jasmine": "~2.4.1"
+    }
 }
