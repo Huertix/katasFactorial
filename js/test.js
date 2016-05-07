@@ -5,8 +5,7 @@
 */
 
 function factorial(n) {
-	if (n<=1) return 1;
-	return factorial(n-1) * n;
+	return n>1 ? factorial(n-1) * n : 1;
 }
 describe("Factorial test", function(){
 	it("0! should be 1", function(){
