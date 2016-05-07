@@ -17,7 +17,7 @@ public class TestFactorial extends TestCase {
         assertEquals(6, Factorial.calculate(3));
     }
 
-*/
-
+    public void testFactorialForBiggerNumbers() {
+        assertEquals(1307674368000L, Factorial.calculate(15));
+    }
 }
-
